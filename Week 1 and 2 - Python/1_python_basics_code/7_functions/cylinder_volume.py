@@ -1,10 +1,11 @@
+import math
 
 def find_cylinder_volume(radius, height=7):
     print("radius:", radius)
     print("height:", height)
-    volume = 3.14*(radius**2)*height
-    print(volume)
-    return volume
+    volume = math.pi * (radius ** 2) * height
+    return round(volume)
+
 
 r = 5
 h = 10
